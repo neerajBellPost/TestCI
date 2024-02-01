@@ -1,5 +1,6 @@
 package org.example;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -10,7 +11,10 @@ public class BellPost {
         driver.manage().window().maximize();
         driver.get("https://retaildev.bellpost.com/#/app");
 
-        Thread.sleep(4000);
+//        driver.findElement(By.xpath("/html/body/flutter-view/flt-text-editing-host/input")).
+//                sendKeys("testing123");
+
+        Thread.sleep(3000);
         driver.close();
 
     }
