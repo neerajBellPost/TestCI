@@ -10,7 +10,7 @@ public class BellPost {
         driver.manage().window().maximize();
         driver.get("https://retaildev.bellpost.com/#/app");
 
-        Thread.sleep(2000);
+        Thread.sleep(3000);
         driver.close();
 
     }
