@@ -14,7 +14,7 @@ public class BellPost {
 //        driver.findElement(By.xpath("/html/body/flutter-view/flt-text-editing-host/input")).
 //                sendKeys("testing123");
 
-        Thread.sleep(4000);
+        Thread.sleep(3000);
         driver.close();
 
     }
